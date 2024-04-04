@@ -21,21 +21,41 @@
         <button id="leave-channel" class="media-active">End</button>
       </div>
     </div>
-    <div id="overlay" class="modal">
-      <div id="modal-container">
-        <div id="modal-header">
-          <div id="title">
+    <div id="join-overlay" class="modal overlay">
+      <div class="modal-container">
+        <div class="modal-header">
+          <div class="title">
             <h1>Join Channel</h1>
           </div>
         </div>
         <form id="join-channel-form">
-          <div id="modal-body">
+          <div class="modal-body">
             <div class="form-group">
               <label for="form-channel-name">Channel Name</label>
               <input type="text" id="form-channel-name" class="form-control">
             </div>
-            <div id="modal-footer">
+            <div class="modal-footer">
               <button type="submit" id="join-channel-btn">Join Channel</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="transcoding-config-overlay" class="modal">
+      <div class="modal-container">
+        <div class="modal-header">
+          <div class="title">
+            <h1>Transcoding Settings</h1>
+          </div>
+        </div>
+        <form id="transcoding-config-form">
+          <div class="modal-body">
+            <div class="form-group">
+              <label for="form-channel-name">Channel Name</label>
+              <input type="text" id="form-channel-name" class="form-control">
+            </div>
+            <div class="modal-footer">
+              <button type="submit" id="transcoding-config-btn">Save Config</button>
             </div>
           </div>
         </form>

@@ -178,7 +178,7 @@ button:focus-visible {
 
 
 /* Join Channel Modal */
-#overlay {
+.overlay {
   position: fixed;
   left: 0;
   top: 0;
@@ -201,17 +201,17 @@ button:focus-visible {
   z-index: 10;
 }
 
-#overlay > * {
+.overlay > * {
   margin: 0 0 25px;
   color: #2d2929;
 }
 
-#modal-overlay button[type=submit]{
+.modal-overlay button[type=submit]{
   max-width: 20vw;
   margin: 0 auto;
 }
 
-#modal-container {
+.modal-container {
   display: flex;
   flex-direction: column;
   width: 50vw;
@@ -222,13 +222,13 @@ button:focus-visible {
   border-radius: 25px;
 } 
 
-#modal-header, #modal-footer {
+.modal-header, .modal-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-#modal-body {
+.modal-body {
   margin: 20px 0;
 }
 
